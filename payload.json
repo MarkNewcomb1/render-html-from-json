@@ -1,0 +1,34 @@
+[
+    {
+      "title": "Home",
+      "href": "/"
+    },
+    {
+      "title": "About",
+      "href": "/about"
+    },
+    {
+      "title": "Settings",
+      "href": "/settings",
+      "children": [
+        {
+          "title": "Account",
+          "href": "/account"
+        },
+        {
+          "title": "Volume",
+          "href": "/volume",
+          "children": [
+            {
+              "title": "Turn Up",
+              "href": "/volume/up"
+            },
+            {
+              "title": "Turn Down",
+              "href": "/volume/down"
+            }
+          ]
+        }
+      ]
+    }
+  ]
